@@ -1,0 +1,51 @@
+a.	Identify two cases of hierarchy in the given problem statement
+HOD -> Lecturers
+Lecturers -> Students
+
+b.	Identify the common behavior among the day scholar, host-elite, graduate and post graduate students  
+* Each of them will be logging into the system using login id and password
+* Each of them will be making payment 
+
+c.	Identify the different layers possible in this system in terms of the users of the systems 
+layer1 - day scholar, host-elite, graduate and post graduate students
+layer2 - full time lecturers and visiting members
+layer3 - HOD
+layer4 - admin staff
+
+
+d. 
+The admin should accumulate student details, the lecturer details , course registered and the marks details of the exams given by students.
+
+Assignment -2
+a. 
+Attributes of Students - studentId, studentName, isHostelelite, isPostGraduate, coursesRegistered, marksScored, grades
+Details that can be exposed - studentId,studentName, isHostelelite, isPostGraduate,coursesRegistered
+Details that should not be exposed - marksScored, grades
+
+b.
+method for the calculation of grade for the Student-
+*For each type of student there will be separate methods. (Graduates and post-graduates students)
+*method signature - String calculateGrade(List<Courses>courseList,List<Double>marksScored) //each of the courses will have maximum marks,pass marks
+*The methods will have same name with the different signature
+*The code in these methods may vary depending upon the grading system of each type of student
+
+
+
+c.
+Two functions are required. If the student is hostel elite the hotel fees will be added using a separate function call.
+
+d. polymorphism in b. same function name different tasks
+   Encapsulation in a. making the attributes private
+   
+   
+Assignment - 3
+
+3. Identity
+4. Encapsulation
+5. Object
+7. Inheritance
+8. Abstraction
+9. Polymorphism
+
+
+
